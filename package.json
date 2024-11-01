@@ -1,0 +1,51 @@
+{
+  "name": "dynamic-vintage-google-map",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 --no-ignore",
+    "preview": "vite preview",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "npm run format",
+      "npm run lint"
+    ]
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/lugrasimo": "^5.1.0",
+    "@fontsource/pirata-one": "^5.1.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@mui/material": "^6.1.6",
+    "@vis.gl/react-google-maps": "^1.4.0",
+    "adblock-detect-react": "^1.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-pageflip": "^2.0.3",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "eslint": "^9.13.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3",
+    "vite": "^5.4.10"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-ssr
+
+.ignore/*
+.ignore*
+*.ignore
+*.local
+
+.env*
+.gitignore
+.husky/*
+.editorconfig
+.eslintignore
+pnpm-lock.yaml

@@ -1,3 +1,7 @@
+# exclude firebase conf from template
+.firebaserc
+firebase.json
+
 .ignore/*
 .ignore*
 *.ignore
