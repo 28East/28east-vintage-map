@@ -22,18 +22,24 @@ import { Box, Paper } from '@mui/material'
 import sealImage from './assets/seal.png'
 
 const SealImage = () => (
-  <img
-    src={sealImage}
-    alt="Seal"
-    style={{
-      position: 'fixed',
-      bottom: '60px',
-      right: '25px',
-      width: '125px',
-      height: '125px',
-      zIndex: 1000,
-    }}
-  />
+  <a
+    href="https://github.com/28East/28east-vintage-map"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src={sealImage}
+      alt="Seal"
+      style={{
+        position: 'fixed',
+        bottom: '60px',
+        right: '25px',
+        width: '125px',
+        height: '125px',
+        zIndex: 1000,
+      }}
+    />
+  </a>
 )
 
 const RootComponent = () => {
